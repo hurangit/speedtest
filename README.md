@@ -18,11 +18,11 @@ git clone https://github.com/hurangit/speedtest.git
 ### 2.移动到文件夹
 cd speedtest
 ### 3.复制文件到www目录下
-sudo cp -R backend 进度版-可用（下载，上传，延迟，抖动）.html *.js /var/www/html/
+sudo cp -R backend progress.html *.js /var/www/html/
 ### 4.更改文件名为index.html
 cd /var/www/html/
 
-sudo mv example-singleServer-pretty.html index.html
+sudo mv progress.html index.html
 ### 6.更改权限
 sudo chown -R www-data *
 # 3开始测试
